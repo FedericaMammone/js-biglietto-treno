@@ -1,5 +1,5 @@
 // variabili globali
-let costoAlKm = 0.21;
+const costoAlKm = 0.21;
 
 // CALCOLO DEL PREZZO DEL BIGLIETTO DEL TRENO
 // chiede all'utente quanti chilometri vuole percorrere
@@ -43,11 +43,6 @@ console.log(prezzoBiglietto);
     } else {
         messaggio = `Il prezzo del tuo biglietto è ${prezzoBiglietto.toFixed(2)}€`;
     }
-    
-
-
-    
-
     
 
     document.getElementById("mio_id").innerHTML = messaggio;
